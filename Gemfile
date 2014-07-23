@@ -1,5 +1,5 @@
-source 'https://rubygems.org'
-
+source 'http://rubygems.org'
+ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
@@ -21,7 +21,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0',          group: :doc
+#gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
@@ -38,3 +38,16 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'activerecord-tableless'
+gem 'compass-rails', '~> 2.0.alpha.0'
+gem 'figaro'
+gem 'gibbon'
+gem 'google-drive'
+gem 'high-voltage'
+gem 'simple-form'
+gem 'zurb-foundation'
+group :development do
+ gem 'better_errors'
+ gem 'quiet-assets'
+ gem 'rails-layout'
+end
